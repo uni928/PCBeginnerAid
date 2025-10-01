@@ -170,7 +170,7 @@
     // 直近ブロックを記録
     const block = findKanaRunAround(editor.value, pos, true);
     lastKanaBlock = block;
-    showToast('入力しました → Space/変換キーでIME候補を表示できます');
+    showToast('入力しました → 変換キーでIME候補を表示できます');
   }
 
   const isHiragana = ch => /^[\u3041-\u3096]$/.test(ch);
